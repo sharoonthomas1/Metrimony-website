@@ -1,0 +1,334 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --main-dark: #16a754;
+    --main-light: #ABBA8F;
+    --bg-color-1: #79AC78;
+    --bg-color-2: #f7f8fb;
+    --h-color: #2d3436;
+    --p-color: #767676;
+}
+
+.curser {
+    cursor: pointer;
+}
+
+.bg__color {
+    background-color: var(--main-dark);
+}
+
+.bg__color1 {
+    background-color: #f68420;
+}
+
+.anchor__tag {
+    color: #f68420;
+}
+
+.bg__color2 {
+    background-color: #f7f8fb;
+}
+
+.bg__color3 {
+    background-color: #F8F0E5;
+}
+
+.bg__color4 {
+    background-color: #251839;
+}
+
+.bg__color5 {
+    background-color: #fef9f7;
+}
+.bg__color6 {
+    background-color: #f6fbff;
+}
+.bg__color7 {
+    background-color: #ECF8F9;
+}
+
+.about-bharat {
+    background-color: #ECE3CE;
+}
+
+.shadow__made {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.shadow__made-2 {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.gaps__t {
+    margin-top:60px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--h-color);
+}
+
+p,
+span {
+    color: var(--p-color);
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.limca-records-bg {
+    width: 800px;
+}
+
+/* start-buttons */
+
+
+/* end-buttons */
+
+/* start-nav */
+ul li a {
+    color: #fff;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+form .form-control:focus {
+    box-shadow: none;
+    border: 1px solid var(--p-color);
+}
+
+/* end-nav */
+
+/* start-details */
+.bg__img {
+    background-image: url(../images/bg-home-grop-img-bharat.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    width: 100%;
+    height:clamp(600px, 1vw, 200px);
+    margin-top: 120px;
+    opacity: 0.7;
+}
+
+@media (max-width:450px){
+    .bg__img{
+        height: 200px;
+    }
+}
+@media (max-width:452px){
+    .limca-records-border {
+        display: none;
+    }
+}
+
+.limca-records-border {
+    border-left: 1px solid #c4c4c4;
+    height: 100px;
+}
+
+.navbar .navbar-toggler{
+    border: 1px solid #fff;
+   
+}
+
+.limca-records-bg {
+    margin: 100px auto 0px;
+}
+
+/* start-details */
+
+/* start-Matrimonial */
+
+.Matrimonial ul {
+    margin: 0 150px;
+}
+
+@media (max-width:450px){
+
+    .Matrimonial ul{
+    margin: 0;
+       
+    }
+}
+
+.mobile__icon span {
+    font-size: 2rem;
+    color: var(--h-color);
+    padding: 0.5rem;
+    background-color: #efefef;
+    border-radius: 50%;
+}
+
+.Matrimonial ul li a {
+    color: var(--h-color);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.Matrimonial ul li:not(ul li:first-of-type) a:hover {
+    color: var(--main-dark);
+
+}
+
+.Matrimonial ul li:first-of-type a {
+    color: var(--main-dark);
+}
+
+.Browse-matrimonial .btn-light {
+    --bs-btn-hover-color: #16a754;
+    --bs-btn-hover-bg: #f8f9fa;
+    --bs-btn-hover-border-color: none;
+}
+
+.show__more .accordion-button:not(.collapsed){
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.about-bharat .accordion-button:not(.collapsed){
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 6px;
+}
+
+.accordion .accordion-button:focus ,.about-bharat .accordion .accordion-button:focus {
+    box-shadow: none;
+}
+
+/* end-Matrimonial */
+
+/* start-download */
+.star {
+    width: 120px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+.star::after {
+    content: '★★★★★';
+    background: linear-gradient(90deg, rgb(255, 226, 7), white);
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: text;
+    color: transparent;
+    margin-top: -6px;
+    margin-left: 12px;
+}
+
+/* end-download */
+
+
+.Regional ul li:first-of-type{
+    background-color: #f2f2f2;
+    border-left: 3px solid #00a03a;
+}
+
+.Regional ul li{
+    border-left: 3px solid transparent;
+}
+
+.Regional ul li:hover{
+    background-color: #f2f2f2;
+    border-left: 3px solid #00a03a;
+}
+
+.Matrimony-city span::after {
+    content: '';
+    border-right: 1px solid #333;
+    margin-right: 8px;
+    margin-left: 9px;
+    height: 12px;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+}
+
+.Matrimony-city ul li a{
+    color: var(--h-color);
+}
+
+.Matrimony-city ul li a:not(:last-child ):hover{
+    color: var(--main-dark);
+}
+
+.Matrimony-city-1 ul li a{
+    color: var(--p-color);
+    font-size: 0.8rem;
+}
+
+.Matrimony-city-1 ul li{
+    margin: 0.3rem 0;
+}
+
+.Matrimony-city-1 ul li a:hover{
+    color: var(--main-dark);
+    text-decoration: none;
+}
+
+.Matrimony-city ul li a:last-child{
+    color: #f68420;
+}
+
+.registration-phone .modal-body{
+    padding: 0;
+}
+
+.registration-phone .modal-header{
+    border-radius: 30px;
+}
+
+@media (min-width:1200px){
+    .registration-phone{
+        display: none;
+    }
+}
+
+@media (max-width:1200px){
+    .registration-phone{
+        width: 250px;
+    }
+
+    .bg__img{
+        margin-top: 35px;
+    }
+}
+@media (min-width:1200px){
+    .registration{
+        display: block;
+    }
+}
+@media (max-width:1200px){
+    .registration{
+        display: none;
+    }
+}
+
+.registration{
+    min-width: 250px;
+    max-width: 450px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
